@@ -9,6 +9,10 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
+@app.route("/num")
+def play():
+    A = np.random.random((10,10))
+    return str(A)
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
