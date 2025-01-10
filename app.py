@@ -11,8 +11,7 @@ def hello():
 
 @app.route("/num/")
 def play():
-    A = np.random.random((10,10))
-    return str(A)
+    return "Let's go!!"
 
 
 if __name__ == '__main__':
