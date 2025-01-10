@@ -9,7 +9,7 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
-@app.route("/get")
+@app.route("/num/")
 def play():
     A = np.random.random((10,10))
     return A
