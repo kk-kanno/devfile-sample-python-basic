@@ -11,8 +11,7 @@ def hello():
 
 @app.route("/num")
 def play():
-    A = np.random.random((10,10))
-    return str(A)
+    return "Let's Go"
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
