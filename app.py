@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World! nice to meet you"
+    return "Hello World! nice to meet you. good bye"
 
 @app.route("/num")
 def play():
