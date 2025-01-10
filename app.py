@@ -12,7 +12,7 @@ def hello():
 @app.route("/num/")
 def play():
     A = np.random.random((10,10))
-    return A
+    return str(A)
 
 
 if __name__ == '__main__':
