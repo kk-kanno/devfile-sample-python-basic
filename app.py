@@ -9,7 +9,7 @@ app = Flask(__name__)
 def hello():
     return "Hello World! nice to meet you. thank you for watching!!"
 
-@app.route("/num")
+@app.route("/let")
 def play():
     return "Let's Go"
 
