@@ -23,7 +23,7 @@ def get():
      di["timeMachine"]["recent"] = {}
      di["timeMachine"]["past"] = {}
      di["timeMachine"]["future"] = {}
-     with open(f"/data/user/{u}.json") as f:
+     with open(f"./data/user/{u}.json") as f:
         str = json.load(f)
         for i in range(len(str)):
             if str[i] == f"user/{u}/メモ_{d}.md":
@@ -54,7 +54,7 @@ def get():
                     di["timeMachine"]["future"][f"{j}"] = str[i]
                     break
  
-     with open(f"/.metadata/all.json") as f:
+     with open(f"./data/all.json") as f:
          str = json.load(f)
          userdata = str[f"{d}"]
          for d in userdata:
