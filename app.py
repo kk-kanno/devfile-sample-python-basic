@@ -10,7 +10,7 @@ def hello():
 
 @app.route("/let")
 def play():
-    return "Let's Go"
+    return "Let's Go!! shall we dance?"
 
 @app.route('/_api')
 def get():
