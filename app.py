@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World! nice to meet you. good bye.see you again"
+    return "Hello World! nice to meet you. good bye."
 
 @app.route("/let")
 def play():
